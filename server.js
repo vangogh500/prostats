@@ -89,6 +89,13 @@ var SampleApp = function() {
     /*  App server functions (main app logic here).                       */
     /*  ================================================================  */
 
+	/**
+	 * Set app's rendering logic
+	 */
+	self.setRenderLogic = function() {
+		self.set('views', __dirname + '/views');
+		self.set('view engine', 'jade');
+	};
     /**
      *  Create the routing table entries + handlers for the application.
      */
@@ -112,6 +119,7 @@ var SampleApp = function() {
      *  the handlers.
      */
     self.initializeServer = function() {
+    	self.setRenderLogic();
         self.createRoutes();
         self.app = express.createServer();
 
