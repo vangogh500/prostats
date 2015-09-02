@@ -100,18 +100,8 @@ var SampleApp = function() {
      *  Create the routing table entries + handlers for the application.
      */
     self.createRoutes = function() {
-        self.routes = { };
-
-        self.routes['/asciimo'] = function(req, res) {
-            var link = "http://i.imgur.com/kmbjB.png";
-            res.send("<html><body><img src='" + link + "'></body></html>");
-        };
-
-        self.routes['/'] = function(req, res) {
-        	res.render('index', {title: 'Hey', message: 'Hello there!'});
-        };
+        require('./routes.js')(app);
     };
-
 
     /**
      *  Initialize the server (express) and create the routes and register
@@ -121,7 +111,7 @@ var SampleApp = function() {
         self.createRoutes();
         self.app = express.createServer();
         self.setRenderLogic();
-
+        
         //  Add handlers for the app (from the routes).
         for (var r in self.routes) {
             self.app.get(r, self.routes[r]);
