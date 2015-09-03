@@ -1,0 +1,59 @@
+@font-face {
+    font-family: custom;
+    src: url("/fonts/maiandra-gd.ttf");
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: custom;
+	background-color: #EDEFF0;
+}
+
+.nav-bar {
+	width: 100%;
+	color: #fff;
+	background-color: #3E474F;
+}
+
+#main-menu {
+	color: #778293;
+	display: table-row;	
+}
+
+#main-menu li {
+	display: table-cell;
+	transition: background-color 0.2s ease-in-out;
+	vertical-align: middle;
+}
+
+#main-menu li:hover {
+	background-color: #2E353B;
+}
+
+#main-menu li.title {
+	padding: 20px 90px 20px 40px;
+}
+
+#main-menu li a {
+	padding: 20px 20px;
+	display: block;
+	position: relative;
+	color: #778293;
+	text-decoration: none;
+}
+
+.border-top {
+	height: 50px;
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 2px solid #aaa;
+}
+
+.container {
+	margin-left: 250px;
+	padding: 25px;
+}

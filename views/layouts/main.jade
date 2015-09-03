@@ -5,4 +5,8 @@ html
     block css
       link(href='/css/main.css', rel='stylesheet')
   body
-    h1!=message
+    #nav-bar
+      ul.main-menu
+        li.title img(src='/img/logo.png' height='50px')
+        li a Leagues
+    block main-container

@@ -96,6 +96,12 @@ var SampleApp = function() {
 		self.app.set('views', __dirname + '/views');
 		self.app.set('view engine', 'jade');
 	};
+	/**
+	 * Set app's middlewares
+	 */
+	self.setMiddlewares = function() {
+		self.app.use(express.static(__dirname + '/public'));
+	}
     /**
      *  Set the routing table entries + handlers for the application.
      */
@@ -109,6 +115,7 @@ var SampleApp = function() {
      */
     self.initializeServer = function() {
         self.app = express.createServer();
+        self.setMiddlewares();
         self.setRoutes();
         self.setRenderLogic();
     };
