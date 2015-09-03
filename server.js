@@ -115,7 +115,7 @@ var SampleApp = function() {
      *  the handlers.
      */
     self.initializeServer = function() {
-        self.app = express.createServer();
+        self.app = express();
         self.setMiddlewares();
         self.setRoutes();
         self.setRenderLogic();
