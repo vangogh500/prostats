@@ -2,7 +2,7 @@
 //  OpenShift sample Node application
 var express = require('express');
 var fs      = require('fs');
-var crawler = require('/lib/esports/na-lcs/crawler.js');
+var crawler = require('./lib/esports/na-lcs/crawler.js');
 
 
 /**
