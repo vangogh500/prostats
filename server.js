@@ -2,6 +2,7 @@
 //  OpenShift sample Node application
 var express = require('express');
 var mongoose = require('mongoose');
+var credentials = require('./credentials.js');
 var fs      = require('fs');
 var teams = require('./lib/esports/na-lcs/teams.js');
 
