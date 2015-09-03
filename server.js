@@ -97,10 +97,10 @@ var SampleApp = function() {
 		self.app.set('view engine', 'jade');
 	};
     /**
-     *  Create the routing table entries + handlers for the application.
+     *  Set the routing table entries + handlers for the application.
      */
-    self.createRoutes = function() {
-        require('./routes.js')(app);
+    self.setRoutes = function() {
+        require('./routes.js')(self.app);
     };
 
     /**
@@ -108,14 +108,9 @@ var SampleApp = function() {
      *  the handlers.
      */
     self.initializeServer = function() {
-        self.createRoutes();
         self.app = express.createServer();
+        self.setRoutes();
         self.setRenderLogic();
-        
-        //  Add handlers for the app (from the routes).
-        for (var r in self.routes) {
-            self.app.get(r, self.routes[r]);
-        }
     };
 
 
