@@ -2,7 +2,7 @@
 //  OpenShift sample Node application
 var express = require('express');
 var fs      = require('fs');
-var crawler = require('./lib/esports/na-lcs/crawler.js');
+var teams = require('./lib/esports/na-lcs/teams.js');
 
 
 /**
@@ -154,6 +154,6 @@ var SampleApp = function() {
  */
 var zapp = new SampleApp();
 zapp.initialize();
-crawler.test();
+teams.test();
 zapp.start();
 
