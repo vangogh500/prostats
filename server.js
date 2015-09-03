@@ -1,6 +1,7 @@
 #!/bin/env node
 //  OpenShift sample Node application
 var express = require('express');
+var mongoose = require('mongoose');
 var fs      = require('fs');
 var teams = require('./lib/esports/na-lcs/teams.js');
 
@@ -91,6 +92,16 @@ var SampleApp = function() {
     /*  ================================================================  */
 
 	/**
+	 * Connect to MongoDB
+	 */
+	self.connectToDB = function() {
+		mongoose.connect(credentials.mongo.connectionString, {
+        	server: {
+        		socketOptions: { keepAlive: 1}
+        	}
+        });
+	};
+	/**
 	 * Set app's rendering logic
 	 */
 	self.setRenderLogic = function() {
@@ -116,6 +127,7 @@ var SampleApp = function() {
      */
     self.initializeServer = function() {
         self.app = express();
+        self.connectToDB();
         self.setMiddlewares();
         self.setRoutes();
         self.setRenderLogic();
