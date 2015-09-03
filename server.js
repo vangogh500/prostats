@@ -113,7 +113,6 @@ var SampleApp = function() {
         self.setRenderLogic();
     };
 
-
     /**
      *  Initializes the sample application.
      */
