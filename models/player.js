@@ -3,6 +3,7 @@ var mongoose = require('mongoose');
 var playerSchema = mongoose.Schema({
 	ign: String,
 	fullName: String,
+	imgUrl: String,
 	bio: String,
 	nationality: String,
 	age: String,
