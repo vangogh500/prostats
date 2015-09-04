@@ -7,7 +7,7 @@ var playerSchema = mongoose.Schema({
 	nationality: String,
 	age: String,
 	position: String,
-	contractEndDate: { type: Date },
+	contractExpDate: { type: Date },
 	matches: []
 });
 
