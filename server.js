@@ -168,6 +168,6 @@ var SampleApp = function() {
  */
 var zapp = new SampleApp();
 zapp.initialize();
-teams.get();
+//teams.get();
 zapp.start();
 
