@@ -1,1 +1,1 @@
-source ${PATH}:${OPENSHIFT_DATA_DIR}.myenv
+source ${OPENSHIFT_DATA_DIR}.myenv
