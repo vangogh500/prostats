@@ -2,9 +2,9 @@ var mongoose = require('mongoose');
 
 var teamSchema = mongoose.Schema({
 	name: String,
-	logoURL: String,
-	founded: { type: Date },
-	nationality: String,
+	acronym: String,
+	logoUrl: String,
+	profileUrl: String,	
 	bio: String,
 	roster: [],
 	matches: []
