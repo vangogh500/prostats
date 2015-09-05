@@ -1,15 +1,19 @@
 var mongoose = require('mongoose');
 
 var playerSchema = mongoose.Schema({
-	ign: String,
-	fullName: String,
-	imgUrl: String,
+	name: String,
+	firstName: String,
+	lastName: String,
+	photoUrl: String,
+	profileUrl: String,
 	bio: String,
-	nationality: String,
-	age: String,
-	position: String,
-	contractExpDate: { type: Date },
-	matches: []
+	hometown: String,
+	role: String,
+	contractExpiration: { type: Date },
+	matches: [{
+		type: mongoose.Schema.Types.ObjectId,
+		ref: 'Match'
+	}]
 });
 
 var Player = mongoose.model('Player', playerSchema);

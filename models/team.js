@@ -6,8 +6,14 @@ var teamSchema = mongoose.Schema({
 	logoUrl: String,
 	profileUrl: String,	
 	bio: String,
-	roster: [],
-	matches: []
+	roster: [{
+		type: mongoose.Schema.Types.ObjectId,
+		ref: 'Player'
+	}],
+	matches: [{
+		type: mongoose.Schema.Types.ObjectId,
+		ref: 'Match'
+	}]
 });
 
 var Team = mongoose.model('Team', teamSchema);
