@@ -4,7 +4,7 @@ var express = require('express');
 var mongoose = require('mongoose');
 var credentials = require('./credentials.js');
 var fs      = require('fs');
-var matches = require('./lib/esports/na-lcs/matches.js');
+var crawler = require('./lib/esports/na-lcs/crawler.js');
 
 
 /**
@@ -167,6 +167,6 @@ var SampleApp = function() {
  */
 var zapp = new SampleApp();
 zapp.initialize();
-matches.get();
+crawler.getWithJs('http://na.lolesports.com/na-lcs/2015/spring/matches/cloud9-vs-counter-logic-gaming');
 zapp.start();
 
