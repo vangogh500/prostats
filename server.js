@@ -167,6 +167,5 @@ var SampleApp = function() {
  */
 var zapp = new SampleApp();
 zapp.initialize();
-crawler.getWithJs('http://na.lolesports.com/na-lcs/2015/spring/matches/cloud9-vs-counter-logic-gaming');
 zapp.start();
 
