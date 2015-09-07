@@ -174,28 +174,28 @@ var matchSchema = mongoose.Schema({
 			firstInhibitorAssist: Boolean,
 			timeline: {
 				creepsPerMinDeltas: {
-					30-end: Number,
-					10-20: Number,
-					20-30: Number,
-					0-10: Number
+					"30-end": Number,
+					"10-20": Number,
+					"20-30": Number,
+					"0-10": Number
 				},
 				xpPerMinDeltas: {
-					30-end: Number,
-					10-20: Number,
-					20-30: Number,
-					0-10: Number
+					"30-end": Number,
+					"10-20": Number,
+					"20-30": Number,
+					"0-10": Number
 				},
 				goldPerMinDeltas: {
-					30-end: Number,
-					10-20: Number,
-					20-30: Number,
-					0-10: Number
+					"30-end": Number,
+					"10-20": Number,
+					"20-30": Number,
+					"0-10": Number
 				},
 				damageTakenPerMinDeltas: {
-					30-end: Number,
-					10-20: Number,
-					20-30: Number,
-					0-10: Number
+					"30-end": Number,
+					"10-20": Number,
+					"20-30": Number,
+					"0-10": Number
 				}
 			}
 		}]
