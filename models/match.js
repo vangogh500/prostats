@@ -27,7 +27,7 @@ var matchSchema = mongoose.Schema({
 			pickTurn: Number,
 		}],
 		players: [{
-			player: String
+			player: String,
 			championId: Number,
 			spell1Id: Number,
 			spell2Id: Number,
@@ -122,7 +122,7 @@ var matchSchema = mongoose.Schema({
 			pickTurn: Number,
 		}],
 		players: [{
-			player: String
+			player: String,
 			championId: Number,
 			spell1Id: Number,
 			spell2Id: Number,
