@@ -167,5 +167,4 @@ var SampleApp = function() {
  */
 var zapp = new SampleApp();
 zapp.initialize();
-matches.get();
 zapp.start();

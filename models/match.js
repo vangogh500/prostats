@@ -9,6 +9,7 @@ var matchSchema = mongoose.Schema({
 	statUrl: String,
 	gameDuration: Number,
 	gameVersion: String,
+	winnerAcronym: String,
 	blue: {
 		acronym: String,
 		win: Boolean,
