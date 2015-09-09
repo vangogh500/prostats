@@ -4,6 +4,7 @@ var express = require('express');
 var mongoose = require('mongoose');
 var credentials = require('./credentials.js');
 var fs      = require('fs');
+var teams = require('./lib/esports/na-lcs/teams.js');
 var matches = require('./lib/esports/na-lcs/matches.js');
 
 
@@ -168,4 +169,4 @@ var SampleApp = function() {
 var zapp = new SampleApp();
 zapp.initialize();
 zapp.start();
-matches.get();
+teams.get();
