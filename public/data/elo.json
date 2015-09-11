@@ -1,0 +1,1350 @@
+[
+    {
+        "acronym": "C9",
+        "logoUrl": "http://riot-web-cdn.s3-us-west-1.amazonaws.com/lolesports/s3fs-public/cloud9-logo.png",
+        "events": [
+            {
+                "elo": 900,
+                "acronym": "TSM vs C9",
+                "matchId": 3508,
+                "gameId": 4544,
+                "gameCreation": "2015-01-24T20:09:38.226Z"
+            },
+            {
+                "elo": 800,
+                "acronym": "C9 vs GV",
+                "matchId": 3516,
+                "gameId": 4552,
+                "gameCreation": "2015-01-25T23:11:13.954Z"
+            },
+            {
+                "elo": 981.8181818181818,
+                "acronym": "C9 vs TL",
+                "matchId": 3520,
+                "gameId": 4556,
+                "gameCreation": "2015-01-31T22:20:42.134Z"
+            },
+            {
+                "elo": 918.3381487534542,
+                "acronym": "CLG vs C9",
+                "matchId": 3523,
+                "gameId": 4559,
+                "gameCreation": "2015-02-01T19:54:04.399Z"
+            },
+            {
+                "elo": 1040.5862416531072,
+                "acronym": "C9 vs T8",
+                "matchId": 3529,
+                "gameId": 4565,
+                "gameCreation": "2015-02-07T21:06:34.079Z"
+            },
+            {
+                "elo": 1080.5339558764529,
+                "acronym": "C9 vs CST",
+                "matchId": 3533,
+                "gameId": 4569,
+                "gameCreation": "2015-02-08T19:56:15.497Z"
+            },
+            {
+                "elo": 1133.873416608395,
+                "acronym": "DIG vs C9",
+                "matchId": 3540,
+                "gameId": 4576,
+                "gameCreation": "2015-02-14T22:18:13.558Z"
+            },
+            {
+                "elo": 989.5844922379116,
+                "acronym": "WFX vs C9",
+                "matchId": 3543,
+                "gameId": 4579,
+                "gameCreation": "2015-02-15T19:56:19.349Z"
+            },
+            {
+                "elo": 1086.4293769475512,
+                "acronym": "C9 vs TIP",
+                "matchId": 3550,
+                "gameId": 4586,
+                "gameCreation": "2015-02-21T22:14:08.503Z"
+            },
+            {
+                "elo": 1225.2644228178538,
+                "acronym": "C9 vs CLG",
+                "matchId": 3553,
+                "gameId": 4589,
+                "gameCreation": "2015-02-22T20:00:50.261Z"
+            },
+            {
+                "elo": 1230.6075585621018,
+                "acronym": "CST vs C9",
+                "matchId": 3558,
+                "gameId": 4594,
+                "gameCreation": "2015-02-28T19:51:32.791Z"
+            },
+            {
+                "elo": 1259.3099427698905,
+                "acronym": "C9 vs WFX",
+                "matchId": 3564,
+                "gameId": 4600,
+                "gameCreation": "2015-03-01T20:54:20.291Z"
+            },
+            {
+                "elo": 1107.4596030338846,
+                "acronym": "TIP vs C9",
+                "matchId": 3571,
+                "gameId": 4607,
+                "gameCreation": "2015-03-07T23:32:02.293Z"
+            },
+            {
+                "elo": 1158.6635564933715,
+                "acronym": "C9 vs DIG",
+                "matchId": 3573,
+                "gameId": 4609,
+                "gameCreation": "2015-03-08T19:22:42.318Z"
+            },
+            {
+                "elo": 1220.055373785591,
+                "acronym": "TL vs C9",
+                "matchId": 3580,
+                "gameId": 4616,
+                "gameCreation": "2015-03-21T19:51:53.072Z"
+            },
+            {
+                "elo": 1091.6950792728449,
+                "acronym": "T8 vs C9",
+                "matchId": 3587,
+                "gameId": 4623,
+                "gameCreation": "2015-03-22T21:09:05.021Z"
+            },
+            {
+                "elo": 1206.9594748430263,
+                "acronym": "GV vs C9",
+                "matchId": 3588,
+                "gameId": 4624,
+                "gameCreation": "2015-03-28T18:55:24.887Z"
+            },
+            {
+                "elo": 1307.8222895573222,
+                "acronym": "C9 vs TSM",
+                "matchId": 3595,
+                "gameId": 4631,
+                "gameCreation": "2015-03-29T19:53:01.930Z"
+            },
+            {
+                "elo": 1347.096605942784,
+                "acronym": "C9 vs CLG",
+                "matchId": 4532,
+                "gameId": 5824,
+                "gameCreation": "2015-03-30T01:44:16.275Z"
+            }
+        ]
+    },
+    {
+        "acronym": "TSM",
+        "logoUrl": "http://riot-web-cdn.s3-us-west-1.amazonaws.com/lolesports/s3fs-public/TSM%20logovector%20-white.png",
+        "events": [
+            {
+                "elo": 1100,
+                "acronym": "TSM vs C9",
+                "matchId": 3508,
+                "gameId": 4544,
+                "gameCreation": "2015-01-24T20:09:38.226Z"
+            },
+            {
+                "elo": 948.0506146704084,
+                "acronym": "T8 vs TSM",
+                "matchId": 3517,
+                "gameId": 4553,
+                "gameCreation": "2015-01-26T00:24:40.058Z"
+            },
+            {
+                "elo": 1048.0506146704083,
+                "acronym": "TSM vs WFX",
+                "matchId": 3522,
+                "gameId": 4558,
+                "gameCreation": "2015-02-01T00:27:15.742Z"
+            },
+            {
+                "elo": 1139.4748007270298,
+                "acronym": "TSM vs TL",
+                "matchId": 3525,
+                "gameId": 4561,
+                "gameCreation": "2015-02-01T22:02:53.926Z"
+            },
+            {
+                "elo": 1159.562568282159,
+                "acronym": "DIG vs TSM",
+                "matchId": 3530,
+                "gameId": 4566,
+                "gameCreation": "2015-02-07T22:04:47.629Z"
+            },
+            {
+                "elo": 1273.4771733962523,
+                "acronym": "TSM vs TIP",
+                "matchId": 3537,
+                "gameId": 4573,
+                "gameCreation": "2015-02-08T23:57:37.724Z"
+            },
+            {
+                "elo": 1304.9523680766092,
+                "acronym": "GV vs TSM",
+                "matchId": 3542,
+                "gameId": 4578,
+                "gameCreation": "2015-02-15T00:10:55.556Z"
+            },
+            {
+                "elo": 1398.2319697106022,
+                "acronym": "CLG vs TSM",
+                "matchId": 3545,
+                "gameId": 4581,
+                "gameCreation": "2015-02-15T22:04:32.479Z"
+            },
+            {
+                "elo": 1401.686953200597,
+                "acronym": "TSM vs CST",
+                "matchId": 3552,
+                "gameId": 4588,
+                "gameCreation": "2015-02-22T00:21:50.861Z"
+            },
+            {
+                "elo": 1209.0840193304116,
+                "acronym": "TL vs TSM",
+                "matchId": 3554,
+                "gameId": 4590,
+                "gameCreation": "2015-02-22T21:06:57.491Z"
+            },
+            {
+                "elo": 1271.1561836774404,
+                "acronym": "TSM vs DIG",
+                "matchId": 3561,
+                "gameId": 4597,
+                "gameCreation": "2015-02-28T23:10:57.561Z"
+            },
+            {
+                "elo": 1090.06792430105,
+                "acronym": "TIP vs TSM",
+                "matchId": 3565,
+                "gameId": 4601,
+                "gameCreation": "2015-03-01T21:45:01.392Z"
+            },
+            {
+                "elo": 1138.4352921954437,
+                "acronym": "WFX vs TSM",
+                "matchId": 3570,
+                "gameId": 4606,
+                "gameCreation": "2015-03-07T22:20:27.395Z"
+            },
+            {
+                "elo": 1261.0231358160754,
+                "acronym": "TSM vs T8",
+                "matchId": 3574,
+                "gameId": 4610,
+                "gameCreation": "2015-03-08T20:13:32.025Z"
+            },
+            {
+                "elo": 1088.12933886958,
+                "acronym": "TSM vs GV",
+                "matchId": 3578,
+                "gameId": 4614,
+                "gameCreation": "2015-03-21T21:19:14.988Z"
+            },
+            {
+                "elo": 1206.4029952608298,
+                "acronym": "TSM vs CLG",
+                "matchId": 3585,
+                "gameId": 4621,
+                "gameCreation": "2015-03-22T19:59:28.756Z"
+            },
+            {
+                "elo": 1209.9572745894156,
+                "acronym": "CST vs TSM",
+                "matchId": 3589,
+                "gameId": 4625,
+                "gameCreation": "2015-03-28T22:16:58.147Z"
+            },
+            {
+                "elo": 1109.0944598751198,
+                "acronym": "C9 vs TSM",
+                "matchId": 3595,
+                "gameId": 4631,
+                "gameCreation": "2015-03-29T19:53:01.930Z"
+            }
+        ]
+    },
+    {
+        "acronym": "DIG",
+        "logoUrl": "http://riot-web-cdn.s3-us-west-1.amazonaws.com/lolesports/s3fs-public/dig_logo_1.png",
+        "events": [
+            {
+                "elo": 1100,
+                "acronym": "CST vs DIG",
+                "matchId": 3509,
+                "gameId": 4545,
+                "gameCreation": "2015-01-24T21:20:26.831Z"
+            },
+            {
+                "elo": 948.0506146704084,
+                "acronym": "DIG vs TIP",
+                "matchId": 3513,
+                "gameId": 4549,
+                "gameCreation": "2015-01-25T19:56:26.191Z"
+            },
+            {
+                "elo": 862.8924085400924,
+                "acronym": "GV vs DIG",
+                "matchId": 3518,
+                "gameId": 4554,
+                "gameCreation": "2015-01-31T20:02:26.630Z"
+            },
+            {
+                "elo": 758.6231934341118,
+                "acronym": "DIG vs WFX",
+                "matchId": 3524,
+                "gameId": 4560,
+                "gameCreation": "2015-02-01T20:59:00.734Z"
+            },
+            {
+                "elo": 738.5354258789827,
+                "acronym": "DIG vs TSM",
+                "matchId": 3530,
+                "gameId": 4566,
+                "gameCreation": "2015-02-07T22:04:47.629Z"
+            },
+            {
+                "elo": 904.8280930980065,
+                "acronym": "TL vs DIG",
+                "matchId": 3535,
+                "gameId": 4571,
+                "gameCreation": "2015-02-08T21:53:43.791Z"
+            },
+            {
+                "elo": 851.4886323660645,
+                "acronym": "DIG vs C9",
+                "matchId": 3540,
+                "gameId": 4576,
+                "gameCreation": "2015-02-14T22:18:13.558Z"
+            },
+            {
+                "elo": 950.3785387746024,
+                "acronym": "DIG vs T8",
+                "matchId": 3547,
+                "gameId": 4583,
+                "gameCreation": "2015-02-16T00:37:41.338Z"
+            },
+            {
+                "elo": 909.839044772079,
+                "acronym": "DIG vs CLG",
+                "matchId": 3551,
+                "gameId": 4587,
+                "gameCreation": "2015-02-21T23:22:04.842Z"
+            },
+            {
+                "elo": 1070.3820062776783,
+                "acronym": "WFX vs DIG",
+                "matchId": 3555,
+                "gameId": 4591,
+                "gameCreation": "2015-02-22T22:23:09.291Z"
+            },
+            {
+                "elo": 1008.3098419306494,
+                "acronym": "TSM vs DIG",
+                "matchId": 3561,
+                "gameId": 4597,
+                "gameCreation": "2015-02-28T23:10:57.561Z"
+            },
+            {
+                "elo": 897.0387249038986,
+                "acronym": "T8 vs DIG",
+                "matchId": 3567,
+                "gameId": 4603,
+                "gameCreation": "2015-03-02T00:16:53.321Z"
+            },
+            {
+                "elo": 922.1444437768258,
+                "acronym": "DIG vs CST",
+                "matchId": 3568,
+                "gameId": 4604,
+                "gameCreation": "2015-03-07T20:06:26.999Z"
+            },
+            {
+                "elo": 870.9404903173389,
+                "acronym": "C9 vs DIG",
+                "matchId": 3573,
+                "gameId": 4609,
+                "gameCreation": "2015-03-08T19:22:42.318Z"
+            },
+            {
+                "elo": 831.0701847956911,
+                "acronym": "CLG vs DIG",
+                "matchId": 3581,
+                "gameId": 4617,
+                "gameCreation": "2015-03-21T22:19:25.564Z"
+            },
+            {
+                "elo": 797.9560501845706,
+                "acronym": "DIG vs GV",
+                "matchId": 3583,
+                "gameId": 4619,
+                "gameCreation": "2015-03-22T19:01:37.329Z"
+            },
+            {
+                "elo": 986.5997111212715,
+                "acronym": "TIP vs DIG",
+                "matchId": 3592,
+                "gameId": 4628,
+                "gameCreation": "2015-03-28T23:12:38.545Z"
+            },
+            {
+                "elo": 839.2370512411906,
+                "acronym": "DIG vs TL",
+                "matchId": 3597,
+                "gameId": 4633,
+                "gameCreation": "2015-03-29T21:15:28.280Z"
+            }
+        ]
+    },
+    {
+        "acronym": "CST",
+        "logoUrl": "http://riot-web-cdn.s3-us-west-1.amazonaws.com/lolesports/s3fs-public/TeamCoast-%28FullColor%29.png",
+        "events": [
+            {
+                "elo": 900,
+                "acronym": "CST vs DIG",
+                "matchId": 3509,
+                "gameId": 4545,
+                "gameCreation": "2015-01-24T21:20:26.831Z"
+            },
+            {
+                "elo": 1051.9493853295917,
+                "acronym": "CST vs WFX",
+                "matchId": 3514,
+                "gameId": 4550,
+                "gameCreation": "2015-01-25T20:47:53.755Z"
+            },
+            {
+                "elo": 951.9493853295917,
+                "acronym": "T8 vs CST",
+                "matchId": 3519,
+                "gameId": 4555,
+                "gameCreation": "2015-01-31T21:09:08.544Z"
+            },
+            {
+                "elo": 888.5155409860914,
+                "acronym": "CST vs GV",
+                "matchId": 3527,
+                "gameId": 4563,
+                "gameCreation": "2015-02-02T00:20:11.108Z"
+            },
+            {
+                "elo": 799.4782630530826,
+                "acronym": "TL vs CST",
+                "matchId": 3531,
+                "gameId": 4567,
+                "gameCreation": "2015-02-07T23:11:48.847Z"
+            },
+            {
+                "elo": 759.5305488297371,
+                "acronym": "C9 vs CST",
+                "matchId": 3533,
+                "gameId": 4569,
+                "gameCreation": "2015-02-08T19:56:15.497Z"
+            },
+            {
+                "elo": 749.5615127361792,
+                "acronym": "CST vs CLG",
+                "matchId": 3538,
+                "gameId": 4574,
+                "gameCreation": "2015-02-14T19:52:57.360Z"
+            },
+            {
+                "elo": 696.2255456446352,
+                "acronym": "TIP vs CST",
+                "matchId": 3544,
+                "gameId": 4580,
+                "gameCreation": "2015-02-15T21:00:26.669Z"
+            },
+            {
+                "elo": 692.7705621546405,
+                "acronym": "TSM vs CST",
+                "matchId": 3552,
+                "gameId": 4588,
+                "gameCreation": "2015-02-22T00:21:50.861Z"
+            },
+            {
+                "elo": 600.6750167055227,
+                "acronym": "CST vs T8",
+                "matchId": 3556,
+                "gameId": 4592,
+                "gameCreation": "2015-02-22T23:39:52.572Z"
+            },
+            {
+                "elo": 595.3318809612747,
+                "acronym": "CST vs C9",
+                "matchId": 3558,
+                "gameId": 4594,
+                "gameCreation": "2015-02-28T19:51:32.791Z"
+            },
+            {
+                "elo": 559.8375459838522,
+                "acronym": "GV vs CST",
+                "matchId": 3563,
+                "gameId": 4599,
+                "gameCreation": "2015-03-01T19:50:31.465Z"
+            },
+            {
+                "elo": 534.731827110925,
+                "acronym": "DIG vs CST",
+                "matchId": 3568,
+                "gameId": 4604,
+                "gameCreation": "2015-03-07T20:06:26.999Z"
+            },
+            {
+                "elo": 527.507973124405,
+                "acronym": "CLG vs CST",
+                "matchId": 3577,
+                "gameId": 4613,
+                "gameCreation": "2015-03-08T23:27:05.490Z"
+            },
+            {
+                "elo": 524.8503696861441,
+                "acronym": "CST vs TIP",
+                "matchId": 3582,
+                "gameId": 4618,
+                "gameCreation": "2015-03-21T18:54:46.150Z"
+            },
+            {
+                "elo": 509.4065884858054,
+                "acronym": "CST vs TL",
+                "matchId": 3584,
+                "gameId": 4620,
+                "gameCreation": "2015-03-22T23:34:11.721Z"
+            },
+            {
+                "elo": 505.85230915721957,
+                "acronym": "CST vs TSM",
+                "matchId": 3589,
+                "gameId": 4625,
+                "gameCreation": "2015-03-28T22:16:58.147Z"
+            },
+            {
+                "elo": 484.44155465549704,
+                "acronym": "WFX vs CST",
+                "matchId": 3593,
+                "gameId": 4629,
+                "gameCreation": "2015-03-29T19:04:11.031Z"
+            }
+        ]
+    },
+    {
+        "acronym": "GV",
+        "logoUrl": "http://riot-web-cdn.s3-us-west-1.amazonaws.com/lolesports/s3fs-public/gravity-logo.png",
+        "events": [
+            {
+                "elo": 900,
+                "acronym": "WFX vs GV",
+                "matchId": 3510,
+                "gameId": 4546,
+                "gameCreation": "2015-01-24T23:01:53.462Z"
+            },
+            {
+                "elo": 1000,
+                "acronym": "C9 vs GV",
+                "matchId": 3516,
+                "gameId": 4552,
+                "gameCreation": "2015-01-25T23:11:13.954Z"
+            },
+            {
+                "elo": 1085.1582061303159,
+                "acronym": "GV vs DIG",
+                "matchId": 3518,
+                "gameId": 4554,
+                "gameCreation": "2015-01-31T20:02:26.630Z"
+            },
+            {
+                "elo": 1148.592050473816,
+                "acronym": "CST vs GV",
+                "matchId": 3527,
+                "gameId": 4563,
+                "gameCreation": "2015-02-02T00:20:11.108Z"
+            },
+            {
+                "elo": 1032.475920000306,
+                "acronym": "GV vs TIP",
+                "matchId": 3528,
+                "gameId": 4564,
+                "gameCreation": "2015-02-07T20:00:41.451Z"
+            },
+            {
+                "elo": 981.9990097455966,
+                "acronym": "CLG vs GV",
+                "matchId": 3534,
+                "gameId": 4570,
+                "gameCreation": "2015-02-08T20:52:09.355Z"
+            },
+            {
+                "elo": 950.5238150652395,
+                "acronym": "GV vs TSM",
+                "matchId": 3542,
+                "gameId": 4578,
+                "gameCreation": "2015-02-15T00:10:55.556Z"
+            },
+            {
+                "elo": 1060.859069555018,
+                "acronym": "GV vs TL",
+                "matchId": 3546,
+                "gameId": 4582,
+                "gameCreation": "2015-02-15T23:19:24.477Z"
+            },
+            {
+                "elo": 1089.309915007701,
+                "acronym": "T8 vs GV",
+                "matchId": 3549,
+                "gameId": 4585,
+                "gameCreation": "2015-02-21T20:57:17.109Z"
+            },
+            {
+                "elo": 935.7947614254076,
+                "acronym": "TIP vs GV",
+                "matchId": 3557,
+                "gameId": 4593,
+                "gameCreation": "2015-02-23T00:42:49.232Z"
+            },
+            {
+                "elo": 861.7406067815091,
+                "acronym": "TL vs GV",
+                "matchId": 3560,
+                "gameId": 4596,
+                "gameCreation": "2015-02-28T22:10:48.562Z"
+            },
+            {
+                "elo": 897.2349417589315,
+                "acronym": "GV vs CST",
+                "matchId": 3563,
+                "gameId": 4599,
+                "gameCreation": "2015-03-01T19:50:31.465Z"
+            },
+            {
+                "elo": 837.4959500724193,
+                "acronym": "GV vs CLG",
+                "matchId": 3569,
+                "gameId": 4605,
+                "gameCreation": "2015-03-07T21:11:53.923Z"
+            },
+            {
+                "elo": 939.138845938844,
+                "acronym": "GV vs WFX",
+                "matchId": 3576,
+                "gameId": 4612,
+                "gameCreation": "2015-03-08T22:19:37.236Z"
+            },
+            {
+                "elo": 1112.0326428853396,
+                "acronym": "TSM vs GV",
+                "matchId": 3578,
+                "gameId": 4614,
+                "gameCreation": "2015-03-21T21:19:14.988Z"
+            },
+            {
+                "elo": 1145.1467774964601,
+                "acronym": "DIG vs GV",
+                "matchId": 3583,
+                "gameId": 4619,
+                "gameCreation": "2015-03-22T19:01:37.329Z"
+            },
+            {
+                "elo": 1029.8823819262786,
+                "acronym": "GV vs C9",
+                "matchId": 3588,
+                "gameId": 4624,
+                "gameCreation": "2015-03-28T18:55:24.887Z"
+            },
+            {
+                "elo": 1147.7039268358596,
+                "acronym": "GV vs T8",
+                "matchId": 3596,
+                "gameId": 4632,
+                "gameCreation": "2015-03-29T22:24:44.039Z"
+            }
+        ]
+    },
+    {
+        "acronym": "WFX",
+        "logoUrl": "http://riot-web-cdn.s3-us-west-1.amazonaws.com/lolesports/s3fs-public/winterfox_logo.png",
+        "events": [
+            {
+                "elo": 1100,
+                "acronym": "WFX vs GV",
+                "matchId": 3510,
+                "gameId": 4546,
+                "gameCreation": "2015-01-24T23:01:53.462Z"
+            },
+            {
+                "elo": 948.0506146704084,
+                "acronym": "CST vs WFX",
+                "matchId": 3514,
+                "gameId": 4550,
+                "gameCreation": "2015-01-25T20:47:53.755Z"
+            },
+            {
+                "elo": 848.0506146704084,
+                "acronym": "TSM vs WFX",
+                "matchId": 3522,
+                "gameId": 4558,
+                "gameCreation": "2015-02-01T00:27:15.742Z"
+            },
+            {
+                "elo": 952.319829776389,
+                "acronym": "DIG vs WFX",
+                "matchId": 3524,
+                "gameId": 4560,
+                "gameCreation": "2015-02-01T20:59:00.734Z"
+            },
+            {
+                "elo": 909.5195369896859,
+                "acronym": "WFX vs CLG",
+                "matchId": 3532,
+                "gameId": 4568,
+                "gameCreation": "2015-02-08T00:18:22.035Z"
+            },
+            {
+                "elo": 799.5317915290389,
+                "acronym": "T8 vs WFX",
+                "matchId": 3536,
+                "gameId": 4572,
+                "gameCreation": "2015-02-08T23:03:17.909Z"
+            },
+            {
+                "elo": 968.5568356858624,
+                "acronym": "WFX vs TIP",
+                "matchId": 3539,
+                "gameId": 4575,
+                "gameCreation": "2015-02-14T21:08:35.114Z"
+            },
+            {
+                "elo": 1112.8457600563459,
+                "acronym": "WFX vs C9",
+                "matchId": 3543,
+                "gameId": 4579,
+                "gameCreation": "2015-02-15T19:56:19.349Z"
+            },
+            {
+                "elo": 1153.6257585838146,
+                "acronym": "TL vs WFX",
+                "matchId": 3548,
+                "gameId": 4584,
+                "gameCreation": "2015-02-21T20:03:40.067Z"
+            },
+            {
+                "elo": 993.0827970782151,
+                "acronym": "WFX vs DIG",
+                "matchId": 3555,
+                "gameId": 4591,
+                "gameCreation": "2015-02-22T22:23:09.291Z"
+            },
+            {
+                "elo": 920.2742206813225,
+                "acronym": "CLG vs WFX",
+                "matchId": 3562,
+                "gameId": 4598,
+                "gameCreation": "2015-03-01T00:12:47.978Z"
+            },
+            {
+                "elo": 891.5718364735336,
+                "acronym": "C9 vs WFX",
+                "matchId": 3564,
+                "gameId": 4600,
+                "gameCreation": "2015-03-01T20:54:20.291Z"
+            },
+            {
+                "elo": 843.2044685791399,
+                "acronym": "WFX vs TSM",
+                "matchId": 3570,
+                "gameId": 4606,
+                "gameCreation": "2015-03-07T22:20:27.395Z"
+            },
+            {
+                "elo": 741.5615727127151,
+                "acronym": "GV vs WFX",
+                "matchId": 3576,
+                "gameId": 4612,
+                "gameCreation": "2015-03-08T22:19:37.236Z"
+            },
+            {
+                "elo": 718.519708902442,
+                "acronym": "WFX vs T8",
+                "matchId": 3579,
+                "gameId": 4615,
+                "gameCreation": "2015-03-21T23:25:30.523Z"
+            },
+            {
+                "elo": 710.8597775679443,
+                "acronym": "TIP vs WFX",
+                "matchId": 3586,
+                "gameId": 4622,
+                "gameCreation": "2015-03-22T22:29:12.584Z"
+            },
+            {
+                "elo": 874.3416414134476,
+                "acronym": "WFX vs TL",
+                "matchId": 3590,
+                "gameId": 4626,
+                "gameCreation": "2015-03-28T21:11:53.077Z"
+            },
+            {
+                "elo": 895.7523959151702,
+                "acronym": "WFX vs CST",
+                "matchId": 3593,
+                "gameId": 4629,
+                "gameCreation": "2015-03-29T19:04:11.031Z"
+            }
+        ]
+    },
+    {
+        "acronym": "TL",
+        "logoUrl": "http://riot-web-cdn.s3-us-west-1.amazonaws.com/lolesports/s3fs-public/teamliquid-logo.png",
+        "events": [
+            {
+                "elo": 1100,
+                "acronym": "TIP vs TL",
+                "matchId": 3511,
+                "gameId": 4547,
+                "gameCreation": "2015-01-25T00:22:35.572Z"
+            },
+            {
+                "elo": 1200,
+                "acronym": "TL vs CLG",
+                "matchId": 3515,
+                "gameId": 4551,
+                "gameCreation": "2015-01-25T21:53:54.143Z"
+            },
+            {
+                "elo": 1018.1818181818182,
+                "acronym": "C9 vs TL",
+                "matchId": 3520,
+                "gameId": 4556,
+                "gameCreation": "2015-01-31T22:20:42.134Z"
+            },
+            {
+                "elo": 926.7576321251968,
+                "acronym": "TSM vs TL",
+                "matchId": 3525,
+                "gameId": 4561,
+                "gameCreation": "2015-02-01T22:02:53.926Z"
+            },
+            {
+                "elo": 1015.7949100582056,
+                "acronym": "TL vs CST",
+                "matchId": 3531,
+                "gameId": 4567,
+                "gameCreation": "2015-02-07T23:11:48.847Z"
+            },
+            {
+                "elo": 849.5022428391818,
+                "acronym": "TL vs DIG",
+                "matchId": 3535,
+                "gameId": 4571,
+                "gameCreation": "2015-02-08T21:53:43.791Z"
+            },
+            {
+                "elo": 986.5608474103153,
+                "acronym": "T8 vs TL",
+                "matchId": 3541,
+                "gameId": 4577,
+                "gameCreation": "2015-02-14T23:09:10.710Z"
+            },
+            {
+                "elo": 876.2255929205369,
+                "acronym": "GV vs TL",
+                "matchId": 3546,
+                "gameId": 4582,
+                "gameCreation": "2015-02-15T23:19:24.477Z"
+            },
+            {
+                "elo": 835.4455943930682,
+                "acronym": "TL vs WFX",
+                "matchId": 3548,
+                "gameId": 4584,
+                "gameCreation": "2015-02-21T20:03:40.067Z"
+            },
+            {
+                "elo": 1028.0485282632535,
+                "acronym": "TL vs TSM",
+                "matchId": 3554,
+                "gameId": 4590,
+                "gameCreation": "2015-02-22T21:06:57.491Z"
+            },
+            {
+                "elo": 1102.102682907152,
+                "acronym": "TL vs GV",
+                "matchId": 3560,
+                "gameId": 4596,
+                "gameCreation": "2015-02-28T22:10:48.562Z"
+            },
+            {
+                "elo": 1219.3976026645742,
+                "acronym": "CLG vs TL",
+                "matchId": 3566,
+                "gameId": 4602,
+                "gameCreation": "2015-03-01T22:56:30.130Z"
+            },
+            {
+                "elo": 1081.3609997717385,
+                "acronym": "TL vs T8",
+                "matchId": 3572,
+                "gameId": 4608,
+                "gameCreation": "2015-03-08T00:41:46.535Z"
+            },
+            {
+                "elo": 1017.1922044254735,
+                "acronym": "TL vs TIP",
+                "matchId": 3575,
+                "gameId": 4611,
+                "gameCreation": "2015-03-08T21:21:27.501Z"
+            },
+            {
+                "elo": 955.8003871332542,
+                "acronym": "TL vs C9",
+                "matchId": 3580,
+                "gameId": 4616,
+                "gameCreation": "2015-03-21T19:51:53.072Z"
+            },
+            {
+                "elo": 971.2441683335928,
+                "acronym": "CST vs TL",
+                "matchId": 3584,
+                "gameId": 4620,
+                "gameCreation": "2015-03-22T23:34:11.721Z"
+            },
+            {
+                "elo": 807.7623044880895,
+                "acronym": "WFX vs TL",
+                "matchId": 3590,
+                "gameId": 4626,
+                "gameCreation": "2015-03-28T21:11:53.077Z"
+            },
+            {
+                "elo": 955.1249643681705,
+                "acronym": "DIG vs TL",
+                "matchId": 3597,
+                "gameId": 4633,
+                "gameCreation": "2015-03-29T21:15:28.280Z"
+            },
+            {
+                "elo": 1060.7381050296885,
+                "acronym": "T8 vs TL",
+                "matchId": 4531,
+                "gameId": 5823,
+                "gameCreation": "2015-03-30T00:37:16.525Z"
+            }
+        ]
+    },
+    {
+        "acronym": "TIP",
+        "logoUrl": "http://riot-web-cdn.s3-us-west-1.amazonaws.com/lolesports/s3fs-public/TIP_Logo.png",
+        "events": [
+            {
+                "elo": 900,
+                "acronym": "TIP vs TL",
+                "matchId": 3511,
+                "gameId": 4547,
+                "gameCreation": "2015-01-25T00:22:35.572Z"
+            },
+            {
+                "elo": 1051.9493853295917,
+                "acronym": "DIG vs TIP",
+                "matchId": 3513,
+                "gameId": 4549,
+                "gameCreation": "2015-01-25T19:56:26.191Z"
+            },
+            {
+                "elo": 937.1075914599076,
+                "acronym": "TIP vs CLG",
+                "matchId": 3521,
+                "gameId": 4557,
+                "gameCreation": "2015-01-31T23:24:14.364Z"
+            },
+            {
+                "elo": 1092.1064110223153,
+                "acronym": "TIP vs T8",
+                "matchId": 3526,
+                "gameId": 4562,
+                "gameCreation": "2015-02-01T23:13:33.080Z"
+            },
+            {
+                "elo": 1208.2225414958255,
+                "acronym": "GV vs TIP",
+                "matchId": 3528,
+                "gameId": 4564,
+                "gameCreation": "2015-02-07T20:00:41.451Z"
+            },
+            {
+                "elo": 1094.3079363817321,
+                "acronym": "TSM vs TIP",
+                "matchId": 3537,
+                "gameId": 4573,
+                "gameCreation": "2015-02-08T23:57:37.724Z"
+            },
+            {
+                "elo": 925.2828922249086,
+                "acronym": "WFX vs TIP",
+                "matchId": 3539,
+                "gameId": 4575,
+                "gameCreation": "2015-02-14T21:08:35.114Z"
+            },
+            {
+                "elo": 978.6188593164526,
+                "acronym": "TIP vs CST",
+                "matchId": 3544,
+                "gameId": 4580,
+                "gameCreation": "2015-02-15T21:00:26.669Z"
+            },
+            {
+                "elo": 881.7739746068129,
+                "acronym": "C9 vs TIP",
+                "matchId": 3550,
+                "gameId": 4586,
+                "gameCreation": "2015-02-21T22:14:08.503Z"
+            },
+            {
+                "elo": 1035.2891281891061,
+                "acronym": "TIP vs GV",
+                "matchId": 3557,
+                "gameId": 4593,
+                "gameCreation": "2015-02-23T00:42:49.232Z"
+            },
+            {
+                "elo": 878.6926670957664,
+                "acronym": "T8 vs TIP",
+                "matchId": 3559,
+                "gameId": 4595,
+                "gameCreation": "2015-02-28T20:51:47.579Z"
+            },
+            {
+                "elo": 1059.7809264721568,
+                "acronym": "TIP vs TSM",
+                "matchId": 3565,
+                "gameId": 4601,
+                "gameCreation": "2015-03-01T21:45:01.392Z"
+            },
+            {
+                "elo": 1211.6312662081627,
+                "acronym": "TIP vs C9",
+                "matchId": 3571,
+                "gameId": 4607,
+                "gameCreation": "2015-03-07T23:32:02.293Z"
+            },
+            {
+                "elo": 1275.8000615544277,
+                "acronym": "TL vs TIP",
+                "matchId": 3575,
+                "gameId": 4611,
+                "gameCreation": "2015-03-08T21:21:27.501Z"
+            },
+            {
+                "elo": 1278.4576649926887,
+                "acronym": "CST vs TIP",
+                "matchId": 3582,
+                "gameId": 4618,
+                "gameCreation": "2015-03-21T18:54:46.150Z"
+            },
+            {
+                "elo": 1286.1175963271862,
+                "acronym": "TIP vs WFX",
+                "matchId": 3586,
+                "gameId": 4622,
+                "gameCreation": "2015-03-22T22:29:12.584Z"
+            },
+            {
+                "elo": 1097.4739353904852,
+                "acronym": "TIP vs DIG",
+                "matchId": 3592,
+                "gameId": 4628,
+                "gameCreation": "2015-03-28T23:12:38.545Z"
+            },
+            {
+                "elo": 1223.144193663346,
+                "acronym": "CLG vs TIP",
+                "matchId": 3594,
+                "gameId": 4630,
+                "gameCreation": "2015-03-29T23:33:35.628Z"
+            }
+        ]
+    },
+    {
+        "acronym": "T8",
+        "logoUrl": "http://riot-web-cdn.s3-us-west-1.amazonaws.com/lolesports/s3fs-public/team8-logo-7.2014.png",
+        "events": [
+            {
+                "elo": 900,
+                "acronym": "CLG vs T8",
+                "matchId": 3512,
+                "gameId": 4548,
+                "gameCreation": "2015-01-25T01:34:28.962Z"
+            },
+            {
+                "elo": 1051.9493853295917,
+                "acronym": "T8 vs TSM",
+                "matchId": 3517,
+                "gameId": 4553,
+                "gameCreation": "2015-01-26T00:24:40.058Z"
+            },
+            {
+                "elo": 1151.9493853295917,
+                "acronym": "T8 vs CST",
+                "matchId": 3519,
+                "gameId": 4555,
+                "gameCreation": "2015-01-31T21:09:08.544Z"
+            },
+            {
+                "elo": 996.9505657671838,
+                "acronym": "TIP vs T8",
+                "matchId": 3526,
+                "gameId": 4562,
+                "gameCreation": "2015-02-01T23:13:33.080Z"
+            },
+            {
+                "elo": 874.7024728675308,
+                "acronym": "C9 vs T8",
+                "matchId": 3529,
+                "gameId": 4565,
+                "gameCreation": "2015-02-07T21:06:34.079Z"
+            },
+            {
+                "elo": 984.6902183281778,
+                "acronym": "T8 vs WFX",
+                "matchId": 3536,
+                "gameId": 4572,
+                "gameCreation": "2015-02-08T23:03:17.909Z"
+            },
+            {
+                "elo": 847.6316137570443,
+                "acronym": "T8 vs TL",
+                "matchId": 3541,
+                "gameId": 4577,
+                "gameCreation": "2015-02-14T23:09:10.710Z"
+            },
+            {
+                "elo": 748.7417073485065,
+                "acronym": "DIG vs T8",
+                "matchId": 3547,
+                "gameId": 4583,
+                "gameCreation": "2015-02-16T00:37:41.338Z"
+            },
+            {
+                "elo": 720.2908618958236,
+                "acronym": "T8 vs GV",
+                "matchId": 3549,
+                "gameId": 4585,
+                "gameCreation": "2015-02-21T20:57:17.109Z"
+            },
+            {
+                "elo": 812.3864073449413,
+                "acronym": "CST vs T8",
+                "matchId": 3556,
+                "gameId": 4592,
+                "gameCreation": "2015-02-22T23:39:52.572Z"
+            },
+            {
+                "elo": 968.982868438281,
+                "acronym": "T8 vs TIP",
+                "matchId": 3559,
+                "gameId": 4595,
+                "gameCreation": "2015-02-28T20:51:47.579Z"
+            },
+            {
+                "elo": 1080.2539854650317,
+                "acronym": "T8 vs DIG",
+                "matchId": 3567,
+                "gameId": 4603,
+                "gameCreation": "2015-03-02T00:16:53.321Z"
+            },
+            {
+                "elo": 1218.2905883578674,
+                "acronym": "TL vs T8",
+                "matchId": 3572,
+                "gameId": 4608,
+                "gameCreation": "2015-03-08T00:41:46.535Z"
+            },
+            {
+                "elo": 1095.7027447372357,
+                "acronym": "TSM vs T8",
+                "matchId": 3574,
+                "gameId": 4610,
+                "gameCreation": "2015-03-08T20:13:32.025Z"
+            },
+            {
+                "elo": 1118.7446085475087,
+                "acronym": "WFX vs T8",
+                "matchId": 3579,
+                "gameId": 4615,
+                "gameCreation": "2015-03-21T23:25:30.523Z"
+            },
+            {
+                "elo": 1247.1049030602549,
+                "acronym": "T8 vs C9",
+                "matchId": 3587,
+                "gameId": 4623,
+                "gameCreation": "2015-03-22T21:09:05.021Z"
+            },
+            {
+                "elo": 1092.4690781358186,
+                "acronym": "T8 vs CLG",
+                "matchId": 3591,
+                "gameId": 4627,
+                "gameCreation": "2015-03-28T20:07:40.009Z"
+            },
+            {
+                "elo": 974.6475332262374,
+                "acronym": "GV vs T8",
+                "matchId": 3596,
+                "gameId": 4632,
+                "gameCreation": "2015-03-29T22:24:44.039Z"
+            },
+            {
+                "elo": 869.0343925647193,
+                "acronym": "T8 vs TL",
+                "matchId": 4531,
+                "gameId": 5823,
+                "gameCreation": "2015-03-30T00:37:16.525Z"
+            }
+        ]
+    },
+    {
+        "acronym": "CLG",
+        "logoUrl": "http://riot-web-cdn.s3-us-west-1.amazonaws.com/lolesports/s3fs-public/600px-Clg_logo2.png",
+        "events": [
+            {
+                "elo": 1100,
+                "acronym": "CLG vs T8",
+                "matchId": 3512,
+                "gameId": 4548,
+                "gameCreation": "2015-01-25T01:34:28.962Z"
+            },
+            {
+                "elo": 1000,
+                "acronym": "TL vs CLG",
+                "matchId": 3515,
+                "gameId": 4551,
+                "gameCreation": "2015-01-25T21:53:54.143Z"
+            },
+            {
+                "elo": 1114.8417938696841,
+                "acronym": "TIP vs CLG",
+                "matchId": 3521,
+                "gameId": 4557,
+                "gameCreation": "2015-01-31T23:24:14.364Z"
+            },
+            {
+                "elo": 1178.3218269344115,
+                "acronym": "CLG vs C9",
+                "matchId": 3523,
+                "gameId": 4559,
+                "gameCreation": "2015-02-01T19:54:04.399Z"
+            },
+            {
+                "elo": 1221.1221197211146,
+                "acronym": "WFX vs CLG",
+                "matchId": 3532,
+                "gameId": 4568,
+                "gameCreation": "2015-02-08T00:18:22.035Z"
+            },
+            {
+                "elo": 1271.599029975824,
+                "acronym": "CLG vs GV",
+                "matchId": 3534,
+                "gameId": 4570,
+                "gameCreation": "2015-02-08T20:52:09.355Z"
+            },
+            {
+                "elo": 1281.5680660693818,
+                "acronym": "CST vs CLG",
+                "matchId": 3538,
+                "gameId": 4574,
+                "gameCreation": "2015-02-14T19:52:57.360Z"
+            },
+            {
+                "elo": 1188.288464435389,
+                "acronym": "CLG vs TSM",
+                "matchId": 3545,
+                "gameId": 4581,
+                "gameCreation": "2015-02-15T22:04:32.479Z"
+            },
+            {
+                "elo": 1228.8279584379122,
+                "acronym": "DIG vs CLG",
+                "matchId": 3551,
+                "gameId": 4587,
+                "gameCreation": "2015-02-21T23:22:04.842Z"
+            },
+            {
+                "elo": 1089.9929125676097,
+                "acronym": "C9 vs CLG",
+                "matchId": 3553,
+                "gameId": 4589,
+                "gameCreation": "2015-02-22T20:00:50.261Z"
+            },
+            {
+                "elo": 1162.8014889645021,
+                "acronym": "CLG vs WFX",
+                "matchId": 3562,
+                "gameId": 4598,
+                "gameCreation": "2015-03-01T00:12:47.978Z"
+            },
+            {
+                "elo": 1045.50656920708,
+                "acronym": "CLG vs TL",
+                "matchId": 3566,
+                "gameId": 4602,
+                "gameCreation": "2015-03-01T22:56:30.130Z"
+            },
+            {
+                "elo": 1105.2455608935923,
+                "acronym": "GV vs CLG",
+                "matchId": 3569,
+                "gameId": 4605,
+                "gameCreation": "2015-03-07T21:11:53.923Z"
+            },
+            {
+                "elo": 1112.4694148801123,
+                "acronym": "CLG vs CST",
+                "matchId": 3577,
+                "gameId": 4613,
+                "gameCreation": "2015-03-08T23:27:05.490Z"
+            },
+            {
+                "elo": 1152.33972040176,
+                "acronym": "CLG vs DIG",
+                "matchId": 3581,
+                "gameId": 4617,
+                "gameCreation": "2015-03-21T22:19:25.564Z"
+            },
+            {
+                "elo": 1034.06606401051,
+                "acronym": "TSM vs CLG",
+                "matchId": 3585,
+                "gameId": 4621,
+                "gameCreation": "2015-03-22T19:59:28.756Z"
+            },
+            {
+                "elo": 1188.701888934946,
+                "acronym": "T8 vs CLG",
+                "matchId": 3591,
+                "gameId": 4627,
+                "gameCreation": "2015-03-28T20:07:40.009Z"
+            },
+            {
+                "elo": 1063.0316306620853,
+                "acronym": "CLG vs TIP",
+                "matchId": 3594,
+                "gameId": 4630,
+                "gameCreation": "2015-03-29T23:33:35.628Z"
+            },
+            {
+                "elo": 1023.7573142766236,
+                "acronym": "C9 vs CLG",
+                "matchId": 4532,
+                "gameId": 5824,
+                "gameCreation": "2015-03-30T01:44:16.275Z"
+            }
+        ]
+    }
+]

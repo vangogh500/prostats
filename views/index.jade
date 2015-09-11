@@ -1,4 +1,14 @@
 extends ./layouts/main.jade
 
+block scripts
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js')
+  script(src='js/charts/scatterplot.js')
+
+block append css
+  link(href='/css/index.css', rel='stylesheet')
+
 block main-container
-  Welcome to Lol Pro!
+  .introduction
+    h1 Welcome to LolPro!
+    p Intuitive visualization of eSports data right in your hands
+  .main-chart
