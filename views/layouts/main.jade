@@ -4,7 +4,7 @@ html
     block scripts
     block css
       link(href='/css/main.css', rel='stylesheet')
-  body
+  body(ng-app='app')
     .nav-bar
       ul#main-menu
         li.title 
@@ -13,3 +13,6 @@ html
           a Leagues
     .main-container
       block main-container
+    block modules
+    block controllers
+    block directives
