@@ -6,9 +6,10 @@
 	color: grey;
 }
 
-.main-chart {
+#chart-container {
 	margin-top: 20px;
 	position: relative;
+	display: inline-block;
 }
 
 #tooltip {
@@ -29,6 +30,11 @@ path {
 	fill: none;
 }
 
+circle {
+	stroke: black;
+	cursor: pointer;
+}
+
 .label {
 	fill: grey;
 }
@@ -44,4 +50,37 @@ path {
 	fill: none;
 	stroke-width: 2;
 	shape-rendering: crispEdges;
+}
+
+.team-selector {
+	float: right;
+	margin: -20px 0px 0px 25px;
+	border-radius: 10px;
+}
+
+.team.even {
+	background: #C8D1D5;
+}
+
+.team .img-container {
+	display: inline-block;
+	padding: 4px;
+	background: black;
+}
+
+.team img {
+	width: 40px;
+	height: 40px;
+}
+
+.team .info {
+	position: absolute;
+	margin: 10px 0px 0px 10px;
+	display: inline-block;
+}
+
+.team .info span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
 }
