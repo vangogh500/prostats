@@ -13,13 +13,6 @@ block main-container
     p Intuitive visualization of eSports data right in your hands
   div(id="chart-container" ng-controller='IndexController as ctrl')
     scatter-chart(ng-model='data')
-    .team-selector
-      h3 LCS Spring Split Teams
-      .team(ng-repeat='team in data' ng-class="{even: $even, odd: $odd}")
-        .img-container
-          img(src="{{team.img}}")
-        .info
-          span {{team.id}}
 
 block modules
   script(src='js/app.js')
