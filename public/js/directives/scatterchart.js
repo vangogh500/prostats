@@ -18,7 +18,12 @@ app.directive('scatterChart', function(){
 				.attr('height', height + margin.top + margin.bottom)
 			.append('g')
 				.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
-				
+		
+		// add selector menu
+		var selector = d3.select(element[0]).append('div').attr('id','team-selector');
+		selector.append('h3').text('2015 Spring Split Teams');
+		var selectorContainer = selector.append('div').attr('id', 'container');
+		
 		// adds defs for filters
 		var defs = svg.append('defs');
 		
@@ -135,6 +140,20 @@ app.directive('scatterChart', function(){
 						.attr('height', 22)
 						.attr('width', 22)
 						.attr('xlink:href', team.img);
+						
+					// add patternLarge used for circle background
+					var patternLarge = defs.append('pattern')
+						.attr('id', team.id + '-large')
+						.attr('height', 40)
+						.attr('width', 40);
+					patternLarge.append('rect')
+						.attr('height', 40)
+						.attr('width', 40)
+						.attr('fill', 'skyblue');
+					patternLarge.append('image')
+						.attr('height', 40)
+						.attr('width', 40)
+						.attr('xlink:href', team.img);
 					
 					// functioning defining line
 					var line = d3.svg.line()
@@ -147,12 +166,13 @@ app.directive('scatterChart', function(){
 						.attr('fill', 'none')
 						.attr("class", "line")
 						.attr("d", line(team.plots))
+						.attr('pointer-events', 'none')
 						.style('stroke', colors[idx])
 						.on("mouseover", function() {
-							d3.select(this).transition().duration(500).style("stroke-width", 5);
+							d3.select(this).transition().duration(200).style("stroke-width", 5);
 						})
 						.on("mouseout", function() {
-							d3.select(this).transition().duration(500).style("stroke-width", 2);
+							d3.select(this).transition().duration(200).style("stroke-width", 2);
 						});
 					var pathLength = path.node().getTotalLength();
 					
@@ -160,6 +180,7 @@ app.directive('scatterChart', function(){
 						.attr("stroke-dashoffset", pathLength)
 						.transition().delay(2000).duration(4000)
 						.attr("stroke-dashoffset", 0);
+
 					
 					// add/render plot points
 					var plt = svg.selectAll("dot")
@@ -170,25 +191,62 @@ app.directive('scatterChart', function(){
 							.attr("cy", function(d) { return y(d.y); })
 							.attr("fill", "url(#"+ team.id +")")
 							.attr("opacity", 0)
+							.attr('pointer-events', 'none')
 						.on("mouseover", function(d) {
-							d3.select(this).attr("opacity", 1);
-							path.transition().duration(500).style("stroke-width", 5);
-							var xPos = parseFloat(d3.select(this).attr("cx"));
-							var yPos = parseFloat(d3.select(this).attr("cy"));
-							this.parentNode.appendChild(this);
-							tooltip.transition().duration(400).style("opacity", 1);		
-							tooltip.html(d.label + "<br/>" + (new Date(d.x).getMonth() +1) + "/" + new Date(d.x).getDate())	
-								.style("left", (xPos) + "px")		
-								.style("top", (yPos - 30) + "px");
+								d3.select(this).transition().duration(1000).ease('elastic').attr('fill', 'url(#' + team.id + '-large)').attr('r', 20);
+								path.style("stroke-width", 5);
+								var xPos = parseFloat(d3.select(this).attr("cx"));
+								var yPos = parseFloat(d3.select(this).attr("cy"));
+								this.parentNode.appendChild(this);
+								tooltip.transition().duration(200).style("opacity", 1);		
+								tooltip.html(d.label + "<br/>" + (new Date(d.x).getMonth() +1) + "/" + new Date(d.x).getDate())	
+									.style("left", (xPos) + "px")		
+									.style("top", (yPos - 50) + "px");
 						})
 						.on("mouseout", function() {
-							path.transition().duration(500).style("stroke-width", 2);
-							d3.select(this).attr("filter", null).attr("opacity", 0.7);
-							tooltip.transition().duration(400)		
+							path.style("stroke-width", 2);
+							d3.select(this).transition().attr('fill', 'url(#' + team.id + ')').attr('r', 11);
+							tooltip.transition().duration(200)		
 								.style("opacity", 0);
 						})
-						.transition().duration(2000).delay(function(d,i) {return 2000+(4000/maxX)*i})
+					plt.transition().duration(2000).delay(function(d,i) {return 2000+(3000/maxX)*i})
 							.attr('opacity', 0.8);
+					
+					// determines if selector is active or not
+					var active = true;
+					
+					// add category selectors
+					var teamChoice = selectorContainer.append('div').attr('class', 'team').style('pointer-events', 'none')
+						.on("mouseover", function() {
+							path.style("stroke-width", 5);
+						})
+						.on("mouseout", function() {
+							path.style("stroke-width", 2);
+						})
+						.on('click', function() {
+							if(active) { 
+								d3.select(this).select('.color-key').transition().style('background', 'grey');
+								this.parentNode.appendChild(this);
+								path.transition().attr('opacity', 0);
+								plt.transition().attr('opacity', 0);
+								active = false;
+							}
+							else {
+								d3.select(this).select('.color-key').transition().style('background', colors[idx]);
+								path.transition().attr('opacity', 1);
+								plt.transition().attr('opacity', 1);
+								active = true;
+							}
+						});
+					
+					teamChoice.append('div').attr('class', 'color-key').style('background', colors[idx]);
+					teamChoice.append('div').attr('class', 'img-container').append('img').attr('src', team.img);
+					teamChoice.append('div').attr('class', 'info').append('span').text(team.id);
+					
+					// add in mouse events after load in
+					path.transition().delay(6000).attr('pointer-events', '');
+					plt.transition().delay(6200).attr('pointer-events', '');
+					teamChoice.transition().delay(6200).style('pointer-events', '');
 				});
 			}
 		}, true);
