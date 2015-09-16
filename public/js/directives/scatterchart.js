@@ -121,6 +121,7 @@ app.directive('scatterChart', function(){
 					.attr("dy", ".75em")
 					.attr("transform", "rotate(-90)")
 					.text("elo rating")
+					.style("font-weight", "none")
 					.transition().duration(2000).attr("opacity", 1);
 				
 				// add tooltip
@@ -178,8 +179,8 @@ app.directive('scatterChart', function(){
 					
 					path.attr("stroke-dasharray", pathLength + " " + pathLength)
 						.attr("stroke-dashoffset", pathLength)
-						.transition().delay(2000).duration(4000)
-						.attr("stroke-dashoffset", 0);
+						.transition().delay(2000).duration(2000)
+						.attr("stroke-dashoffset", 0).attr('stroke-width', 2);
 
 					
 					// add/render plot points
@@ -193,30 +194,31 @@ app.directive('scatterChart', function(){
 							.attr("opacity", 0)
 							.attr('pointer-events', 'none')
 						.on("mouseover", function(d) {
-								d3.select(this).transition().duration(1000).ease('elastic').attr('fill', 'url(#' + team.id + '-large)').attr('r', 20);
+								d3.select(this).transition().duration(800).ease('elastic').attr('fill', 'url(#' + team.id + '-large)').attr('r', 20);
 								path.style("stroke-width", 5);
 								var xPos = parseFloat(d3.select(this).attr("cx"));
 								var yPos = parseFloat(d3.select(this).attr("cy"));
 								this.parentNode.appendChild(this);
 								tooltip.transition().duration(200).style("opacity", 1);		
 								tooltip.html(d.label + "<br/>" + (new Date(d.x).getMonth() +1) + "/" + new Date(d.x).getDate())	
-									.style("left", (xPos) + "px")		
-									.style("top", (yPos - 50) + "px");
+									.style("left", (xPos + 10) + "px")		
+									.style("top", (yPos - 17) + "px");
 						})
 						.on("mouseout", function() {
 							path.style("stroke-width", 2);
 							d3.select(this).transition().attr('fill', 'url(#' + team.id + ')').attr('r', 11);
 							tooltip.transition().duration(200)		
 								.style("opacity", 0);
-						})
-					plt.transition().duration(2000).delay(function(d,i) {return 2000+(3000/maxX)*i})
+						});
+					
+					plt.transition().duration(2000).delay(function(d,i) {return 2000+(1000/maxX)*i})
 							.attr('opacity', 0.8);
 					
 					// determines if selector is active or not
 					var active = true;
 					
 					// add category selectors
-					var teamChoice = selectorContainer.append('div').attr('class', 'team').style('pointer-events', 'none')
+					var teamChoice = selectorContainer.append('div').attr('class', 'team').classed('select', true).attr('height', 0).style('pointer-events', 'none')
 						.on("mouseover", function() {
 							path.style("stroke-width", 5);
 						})
@@ -225,16 +227,24 @@ app.directive('scatterChart', function(){
 						})
 						.on('click', function() {
 							if(active) { 
-								d3.select(this).select('.color-key').transition().style('background', 'grey');
+								d3.select(this).classed('select', false).classed('deselect', true);
+								d3.select(this).select('.color-key').transition().duration(200).style('background', 'grey');
 								this.parentNode.appendChild(this);
-								path.transition().attr('opacity', 0);
-								plt.transition().attr('opacity', 0);
+								path.transition().attr('opacity', 0).attr('pointer-events', 'none');
+								plt.transition().attr('opacity', 0).attr('pointer-events', 'none');
 								active = false;
 							}
 							else {
+								d3.select(this).classed('select', true).classed('deselect', false);
 								d3.select(this).select('.color-key').transition().style('background', colors[idx]);
-								path.transition().attr('opacity', 1);
-								plt.transition().attr('opacity', 1);
+								var firstChild = this.parentNode.firstChild;
+								this.parentNode.insertBefore(this, firstChild);
+								path.attr("opacity", 1).style('stroke-width', 2)
+									.attr("stroke-dasharray", pathLength + " " + pathLength)
+									.attr("stroke-dashoffset", pathLength)
+									.transition().duration(1000)
+									.attr("stroke-dashoffset", 0);
+								plt.transition().attr('opacity', 1).attr('pointer-events', '');
 								active = true;
 							}
 						});
@@ -244,9 +254,9 @@ app.directive('scatterChart', function(){
 					teamChoice.append('div').attr('class', 'info').append('span').text(team.id);
 					
 					// add in mouse events after load in
-					path.transition().delay(6000).attr('pointer-events', '');
-					plt.transition().delay(6200).attr('pointer-events', '');
-					teamChoice.transition().delay(6200).style('pointer-events', '');
+					path.transition().delay(4000).attr('pointer-events', '');
+					plt.transition().delay(4200).attr('pointer-events', '');
+					teamChoice.transition().delay(4200).style('pointer-events', '');
 				});
 			}
 		}, true);
