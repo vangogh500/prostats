@@ -4,7 +4,7 @@ var express = require('express');
 var mongoose = require('mongoose');
 var credentials = require('./credentials.js');
 var fs      = require('fs');
-var elo = require('./lib/statistics/elo.js');
+var statistics = require('./lib/statistics/team/statistics.js');
 
 
 /**
@@ -168,4 +168,4 @@ var SampleApp = function() {
 var zapp = new SampleApp();
 zapp.initialize();
 zapp.start();
-elo.get();
+statistics.get();
