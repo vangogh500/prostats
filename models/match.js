@@ -205,4 +205,3 @@ var matchSchema = mongoose.Schema({
 
 var Match = mongoose.model('Match', matchSchema);
 module.exports = Match;
-exports.getSchema = matchSchema;
