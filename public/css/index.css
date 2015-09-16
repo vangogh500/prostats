@@ -54,7 +54,7 @@ circle {
 
 #team-selector {
 	float: right;
-	margin: -20px 0px 0px 25px;
+	margin: 0px 0px 0px 25px;
 }
 
 #team-selector #container {
@@ -68,6 +68,14 @@ circle {
 
 .team:nth-child(even) {
 	background: #C8D1D5;
+}
+
+.team.select .color-key {
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+
+.team.deselect .color-key {
+	box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.75);
 }
 
 .team:hover {

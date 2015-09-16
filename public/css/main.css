@@ -1,6 +1,6 @@
 @font-face {
     font-family: custom;
-    src: url("/fonts/maiandra-gd.ttf");
+    src: url("/fonts/LeagueGothic-CondensedRegular.otf");
 }
 
 *{
@@ -9,8 +9,16 @@
 }
 
 body {
-	font-family: custom;
+	font-family: 'Ubuntu', sans-serif;
 	background-color: #EDEFF0;
+}
+
+img {
+	vertical-align: baseline;
+}
+
+.label {
+	font-weight: normal;
 }
 
 .nav-bar {
