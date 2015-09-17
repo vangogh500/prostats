@@ -6,5 +6,6 @@ exports.index = function(req, res){
 };
 
 exports.timeline = function(req, res){
-	res.json(statistics.getTimeline(req.params.id));
+	var timeline = statistics.getTimeline(req.params.id);
+	console.log(timeline);
 };
