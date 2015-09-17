@@ -4,8 +4,6 @@ var express = require('express');
 var mongoose = require('mongoose');
 var credentials = require('./credentials.js');
 var fs      = require('fs');
-var statistics = require('./lib/statistics/team/statistics.js');
-
 
 /**
  *  Define the sample application.
@@ -168,4 +166,3 @@ var SampleApp = function() {
 var zapp = new SampleApp();
 zapp.initialize();
 zapp.start();
-statistics.get();
