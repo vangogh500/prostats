@@ -16,9 +16,11 @@ block main-container
     p Intuitive visualization of eSports data right in your hands
   div(id="chart-container" ng-controller='IndexController as ctrl')
     .select-container
-      ui-select(ng-model='employee.selected', theme='bootstrap')
+      ui-select(ng-model='choice.selected', theme='bootstrap')
         ui-select-match(placeholder="Choose a category...") {{$select.selected.name}}
-        ui-select-choices(repeat='c in choices | filter: $select.search') {{c.name}}
+        ui-select-choices(repeat='c in choices | filter: $select.search')
+          div {{c.name}}
+          small {{c.detail}}
     scatter-chart(ng-model='data')
 
 block modules

@@ -35,7 +35,11 @@ circle {
 	cursor: pointer;
 }
 
-.label {
+.xLabel {
+	fill: grey;
+	z-index: -1;
+}
+.yLabel {
 	fill: grey;
 }
 
@@ -50,6 +54,11 @@ circle {
 	fill: none;
 	stroke-width: 2;
 	shape-rendering: crispEdges;
+}
+
+.select-container small {
+	color: grey;
+	font-size: 10px;
 }
 
 #team-selector {
