@@ -4,6 +4,7 @@ var express = require('express');
 var mongoose = require('mongoose');
 var credentials = require('./credentials.js');
 var fs      = require('fs');
+var cors = require('cors');
 
 /**
  *  Define the sample application.
@@ -112,6 +113,7 @@ var SampleApp = function() {
 	 */
 	self.setMiddlewares = function() {
 		self.app.use(express.static(__dirname + '/public'));
+		self.app.use(cors());
 	}
     /**
      *  Set the routing table entries + handlers for the application.
