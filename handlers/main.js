@@ -6,7 +6,6 @@ exports.index = function(req, res){
 
 exports.timeline = function(req, res){
 	statistics.getTimeline(req.params.id, function(timeline){
-		res.setHeader("Access-Control-Allow-Origin", "*");
 		res.json(timeline);
 	});
 };
