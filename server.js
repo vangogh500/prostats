@@ -113,7 +113,6 @@ var SampleApp = function() {
 	 */
 	self.setMiddlewares = function() {
 		self.app.use(express.static(__dirname + '/public'));
-		self.app.use(cors());
 	}
     /**
      *  Set the routing table entries + handlers for the application.
