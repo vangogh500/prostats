@@ -14,7 +14,7 @@ app.controller('IndexController', function($scope){
 		{ name: 'Avg. First Inhibitor', detail: "# of games where first inhibitor was secured / # of games", key: 'firstInhibitor', yLabel: 'first inhibitor %'}
 	];
 	function update(id, yLabel) {
-		d3.json('http://lolpro-vangogh500.rhcloud.com/api/timeline/' + id).header("Content-Type", "application/json").send("GET",function(err, data) {
+		d3.json('/api/timeline/' + id).header("Content-Type", "application/json").send("GET",function(err, data) {
 			$scope.data = {
 				data: data,
 				yLabel: yLabel
